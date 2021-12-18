@@ -92,7 +92,7 @@ public class Vaixells {
 					ship1 = true;
 					map[ship1Row-1][ship1Col-1] = 'V';
 					trys++;
-					System.out.println("Tocat i enfonsat");
+					System.out.println("Tocat i enfonsat. Queda un vaixell.");
 				}
 			} else if (coordInputNum == ship2Col && Character.getNumericValue(coordInput.charAt(1)) == ship2Row) {
 				if (ship2) {
@@ -101,7 +101,7 @@ public class Vaixells {
 					ship2 = true;
 					map[ship2Row-1][ship2Col-1] = 'V';
 					trys++;
-					System.out.println("Tocat i enfonsat");
+					System.out.println("Tocat i enfonsat. Queda un vaixell.");
 					
 				}
 			} else {
