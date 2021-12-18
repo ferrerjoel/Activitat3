@@ -105,7 +105,7 @@ public class Vaixells {
 					
 				}
 			} else {
-				System.out.println("Aigua!");
+				System.out.println("Aquí no hi ha cap vaixell!");
 				System.out.println(coordInputNum);
 				System.out.println(Character.getNumericValue(coordInput.charAt(1)));
 				map[Character.getNumericValue(coordInput.charAt(1))-1][coordInputNum-1] = 'A';
