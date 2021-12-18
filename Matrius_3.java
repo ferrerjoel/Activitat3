@@ -5,7 +5,7 @@ class Matrius_1{
     int[][] array = new int[10][10];
     int rowSum = 0, columnSum = 0;
 
-    System.out.println("Matriu generada amb les seves respectives operacións:\n ");
+
     //Imprimim la array
     for (byte i = 0; i < 10; i++) {
       for (byte j = 0; j < 10; j++) {
