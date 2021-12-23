@@ -27,6 +27,6 @@ class Matrius_1{
       System.out.print(" "+columnSum);
       columnSum = 0;
     }
-    System.out.print("\n");
+    System.out.println();
   }
 }
